@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>title</title>
+    <title>Prof Ajax</title>
+
 </head>
 <body>
-    <h1>Prof Code</h1>
+    
+    <header>
+          <img src="img/template.png" alt="" width="700px">
+    </header>
+    <nav>
+      <a href="index.html">Home |</a>
+      <a href="musicasProg.html">Músicas para programação |</a>
+      <a href="aulas.html">Aulas grátis |</a>
+      <a href="plano.html">Planos |</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <main>
+        <section>
+            <h3>Python</h3>
+            <figure>
+                <img src="https://www.tshirtgeek.com.br/wp-content/uploads/2021/03/com001.jpg" alt="" width="250px">
+                <figcaption>Python é uma linguagem de programação de alto nível, interpretada, de propósito geral e de sintaxe simples. É amplamente utilizada em uma variedade de domínios, incluindo desenvolvimento web, análise de dados, automação de tarefas, inteligência artificial, aprendizado de máquina e muito mais.</figcaption>
+            </figure>
+            
+           </section>
+            <h3>Java</h3>
+            <figure>
+                <img src="https://media.gettyimages.com/id/1250084162/pt/vetorial/program-code-page-programming-script-vector-background-stock-illustration-script-html.jpg?s=612x612&w=gi&k=20&c=0GvI0D31uiTJCA8YNQsQfiMH9bl_SAmDJx6g_YhxM2E=" alt="" width="250px">
+                <figcaption>Java é uma linguagem de programação orientada a objetos, compilada e multiplataforma. Ela foi projetada para ser independente de plataforma, o que significa que o código escrito em Java pode ser executado em qualquer dispositivo que tenha um ambiente de execução Java (JRE) instalado.</figcaption>
+            </figure>
+            
+           </section>
+            <h3>C#</h3>
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJBvHlzPf9hlmNNIUk-SKovgmHC_jdSg1lUUzF33gAhg&s" alt="" width="250px">
+                <figcaption>C# é uma linguagem de programação desenvolvida pela Microsoft como parte da plataforma .NET. É uma linguagem orientada a objetos e é amplamente utilizada para o desenvolvimento de aplicativos Windows, aplicativos web, jogos, aplicativos móveis e serviços na nuvem.</figcaption>
+            </figure>
+            
+           </section>
+            <h3>R</h3>
+            <figure>
+                <img src="https://www.shutterstock.com/image-photo/r-programming-language-inscription-against-260nw-1980408395.jpg" alt="" width="250px">
+                <figcaption>R é uma linguagem de programação e ambiente de software amplamente utilizado para computação estatística e análise de dados. Ele fornece uma grande variedade de pacotes e bibliotecas especializadas para análise estatística, visualização de dados, modelagem preditiva, entre outras tarefas relacionadas à ciência de dados.</figcaption>
+            </figure>
+            
+           </section>
+    
+
+    </main>
+    <footer>
+        <strong>Prof Ajax <span id="ano"></span> </strong>
+    </footer>
+    <Script>
+        
+            var currentDate = new Date();
+            var year = currentDate.getFullYear();
+
+            var yearElement = document.getElementById('ano');
+
+            yearElement.innerHTML = year;
+
+    </Script>
 </body>
 </html>
